@@ -1,0 +1,24 @@
+{
+  "name": "play-webpack-css-splitting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "rm -rf dist && webpack"
+  },
+  "author": "Khalil Zhang <kandmforever@126.com> (http://starandtina.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "0.23.1",
+    "cssnano": "3.5.2",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "0.8.5",
+    "postcss-loader": "0.9.1",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.0"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  }
+}
